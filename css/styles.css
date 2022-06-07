@@ -1,0 +1,155 @@
+/* #757575 #212121 #2196F3 #000000 #FFFFFF #F5F4FA #2F303A */
+:root {
+  --main-color: #757575;
+  --secondary-color: #212121;
+  --accent-color: #2196f3;
+  --logo-header-color: #000000;
+  --footer-color: #ffffff;
+  --filter-background: #f5f4fa;
+  --footer-background: #2f303a;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--main-color);
+  letter-spacing: 0.03em;
+}
+/* шапка */
+.header-logo {
+  color: var(--logo-header-color);
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo-accent {
+  color: var(--accent-color);
+}
+.nav-li {
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.nav-li:hover,
+.nav-li:focus,
+.contacts-links:hover,
+.contacts-links:focus {
+  color: var(--accent-color);
+}
+.contacts-links {
+  text-decoration: none;
+  color: var(--main-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+/* герой */
+.hero-title {
+  color: var(--footer-color);
+  background-color: salmon;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hero-btn {
+  color: var(--footer-color);
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+/* преимущества */
+.benefits-title {
+  color: var(--secondary-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.benefits-descr {
+  color: var(--main-color);
+  font-size: 14px;
+  line-height: 1.71;
+}
+/* чем мы занимаемся, 
+наша команда*/
+.activities-title,
+.team-title {
+  color: var(--secondary-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+/* наша команда */
+.team-name {
+  color: var(--secondary-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+.job-title {
+  color: var(--main-color);
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+/* подвал */
+.footer-logo {
+  color: var(--footer-color);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.footer-adress {
+  color: var(--footer-color);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  background-color: salmon;
+}
+.footer-contacts {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-contacts:hover,
+.footer-contacts:focus {
+  color: var(--accent-color);
+}
+
+/* СТРАНИЦА ПОРТФОЛИО */
+.portfolio-btn {
+  color: var(--secondary-color);
+  background-color: var(--filter-background);
+  cursor: pointer;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: var(--footer-color);
+  background-color: var(--accent-color);
+}
+.portfolio-list-title {
+  color: var(--secondary-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio-list-descr {
+  color: var(--main-color);
+  font-size: 16px;
+  line-height: 1.88;
+}
