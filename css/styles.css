@@ -266,7 +266,8 @@ ul {
   margin-right: 30px;
   margin-bottom: 30px;
   background-color: var(--footer-color);
-  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
 }
 .portfolio-list-item:nth-child(3n) {
   margin-right: 0px;
@@ -274,15 +275,21 @@ ul {
 .portfolio-list-item:nth-child(n + 7) {
   margin-bottom: 0px;
 }
+.card-bottom {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 24px;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+}
 .portfolio-list-title {
   color: var(--secondary-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin-top: 20px;
   margin-bottom: 4px;
-  margin-left: 24px;
 }
 .filter-ul {
   display: flex;
@@ -295,7 +302,6 @@ ul {
   color: var(--main-color);
   font-size: 16px;
   line-height: 1.88;
-  margin-left: 24px;
 }
 .filter-ul {
   margin-bottom: 50px;
