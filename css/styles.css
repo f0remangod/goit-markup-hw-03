@@ -98,7 +98,6 @@ ul {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
 .section.hero {
   background-color: var(--footer-background);
   padding-top: 200px;
@@ -251,15 +250,29 @@ ul {
   border-radius: 4px;
   min-width: 73px;
 }
-.filter-li {
-  display: inline-block;
-}
 .portfolio-btn:hover,
 .portfolio-btn:focus {
   color: var(--footer-color);
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.portfolio-list-item {
+  width: 370px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  background-color: var(--footer-color);
+  padding-bottom: 20px;
+}
+.portfolio-list-item:nth-child(3n) {
+  margin-right: 0px;
+}
+.portfolio-list-item:nth-child(n + 7) {
+  margin-bottom: 0px;
 }
 .portfolio-list-title {
   color: var(--secondary-color);
@@ -269,11 +282,20 @@ ul {
   letter-spacing: 0.06em;
   margin-top: 20px;
   margin-bottom: 4px;
+  margin-left: 24px;
+}
+.filter-ul {
+  display: flex;
+  justify-content: center;
+}
+.filter-li:not(:last-child) {
+  margin-right: 8px;
 }
 .portfolio-list-descr {
   color: var(--main-color);
   font-size: 16px;
   line-height: 1.88;
+  margin-left: 24px;
 }
 .filter-ul {
   margin-bottom: 50px;
