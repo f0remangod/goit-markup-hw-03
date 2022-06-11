@@ -13,6 +13,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: var(--main-color);
+  font-size: 14px;
   letter-spacing: 0.03em;
 }
 h1,
@@ -50,10 +51,10 @@ ul {
   color: var(--secondary-color);
   text-decoration: none;
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+.current,
 .nav-li:hover,
 .nav-li:focus,
 .contacts-links:hover,
@@ -68,7 +69,6 @@ ul {
   text-decoration: none;
   color: var(--main-color);
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
@@ -144,7 +144,6 @@ ul {
 }
 .benefits-descr {
   color: var(--main-color);
-  font-size: 14px;
   line-height: 1.71;
 }
 .visually-hidden {
@@ -237,7 +236,6 @@ ul {
 .footer-adress {
   color: var(--footer-color);
   font-style: normal;
-  font-size: 14px;
   line-height: 1.71;
 }
 .footer-contacts {
