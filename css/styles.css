@@ -9,6 +9,7 @@
   --header-border: #ececec;
   --card-border: #eeeeee;
   --footer-contacts: rgba(255, 255, 255, 0.6);
+  --hero-btn-hover: #188ce8;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -133,6 +134,10 @@ ul {
   border-radius: 4px;
   border-color: transparent;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--hero-btn-hover);
 }
 /* преимущества */
 .benefits-title {
